@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Fit';
+    src:url('./fonts/Fit-VF.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'InputSans';
+    src:url('./fonts/InputSansNarrow.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Condor-Regular-Bold';
+    src:url('./fonts/Condor-Bold.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'OutputSans-Medium';
+    src: url('./fonts/OutputSans-Medium.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'KRSNATrial-Medium';
+    src: url('./fonts/KRSNATrial-Medium.woff2') format('woff2');
+}
+.butt{
+    cursor:pointer;
+}
+/* width */
+#chatBox::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+#chatBox::-webkit-scrollbar-track {
+    background: red; 
+}
+ 
+/* Handle */
+#chatBox::-webkit-scrollbar-thumb {
+    background: black; 
+}
+
+/* Handle on hover */
+#chatBox::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+}
